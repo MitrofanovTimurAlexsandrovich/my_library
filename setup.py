@@ -1,19 +1,18 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="my-library",  # Уникальное имя на PyPI
-    version="0.1.0",  # Версия
-    author="Your Name",
-    author_email="your_email@example.com",
-    description="A custom library for parsing, compiling, and managing structured data.",
+    name="MyLabLibraryTAM",
+    version="0.0.1",
+    author="Timur Mitrofanov",
+    author_email="mitrofanov-t@bk.ru",
+    description="Каастомная библиотека по второй лабораторной рабте лог. програмирования",
     long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/my-library",  # Замените на ваш репозиторий
+    url="https://github.com/MitrofanovTimurAlexsandrovich/my_library ",
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires=">=3.7",
+    python_requires=">=3.12",
 )
