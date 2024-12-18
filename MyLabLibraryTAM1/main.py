@@ -1,5 +1,5 @@
-from Compiler import *
-from Parser import parse, parseFormula
+from .Compiler import *
+from .Parser import parse, parseFormula
 
 
 

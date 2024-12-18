@@ -1,4 +1,4 @@
-from Value import *
+from .Value import *
 
 import weakref
 

@@ -1,4 +1,4 @@
-from Struck import *
+from .Struck import *
 
 
 class Scope:

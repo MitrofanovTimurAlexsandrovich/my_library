@@ -1,5 +1,5 @@
 
-from Value import *
+from .Value import *
 
 
 def parse(line: str):
